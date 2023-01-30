@@ -1,4 +1,7 @@
 const btnStart = document.querySelector('.game_button_start');
+
+window.application = {};
+
 document.querySelectorAll('.button')
     .forEach((element) => {
         element.addEventListener('click', function (event) {
