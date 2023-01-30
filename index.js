@@ -22,11 +22,11 @@ document.querySelectorAll('.button')
         const level = window.application.level;
         console.log(level);
         if (level === '1') {
-            
+            window.location.href = '#'  
         } else if (level === '2') {
-           
+            window.location.href = '#'  
         } else if (level === '3') {
-           
+            window.location.href = '#'  
         } else {
             alert('Выбери сложность');
           
