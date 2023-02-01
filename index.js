@@ -1,11 +1,18 @@
 const btnStart = document.querySelector('.game_button_start');
+const btnLvl = document.querySelectorAll('.button');
 
 window.application = {};
 
 document.querySelectorAll('.button')
     .forEach((element) => {
+        // btnLvl.addEventListener('click', function () {
+        //     btnLvl.classList.remove('border_red');
+        // });
         element.addEventListener('click', function (event) {
-            element.style.border = '3px solid red';
+            // element.style.border = '3px solid red';
+            const target = event.target;
+            
+            element.classList.add('border_red');
 
             const levelBtn = event.target.textContent;
 
