@@ -1,3 +1,5 @@
+const app = document.querySelector('.app');
+
 const btnStart = document.querySelector('.game_button_start');
 const btnLvl = document.querySelectorAll('.button');
 
@@ -39,3 +41,5 @@ document.querySelectorAll('.button')
           
         }
     });
+
+   

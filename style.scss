@@ -101,3 +101,50 @@
         font-size: 64px;
         color: #0080c1;
     }
+
+    .btn {
+        padding-right: 20px;
+    }
+
+    .header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 22px;
+        width: 100vw;
+
+    }
+
+    .timer {
+        padding-left: 20px;
+
+    &_text {
+        font-feature-settings: "pnum" on,"lnum" on;
+        color: #fff;
+        font-family: StratosSkyeng;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        padding-left: 61px;
+        }
+
+    &_sec {
+        color: #fff;
+        font-family: StratosSkyeng;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;  
+        }
+    }
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-left: 180px;
+    padding-top: 100px;
+    width: 900px;
+
+
+    }
