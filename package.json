@@ -1,0 +1,41 @@
+{
+    "name": "cart_game",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server -p 3004",
+        "format": "prettier --write ./src/",
+        "lint:js": "eslint ./src/**/*.js",
+        "lint:css": "eslint ./src/**/*.css",
+        "lint": "npm run lint:js && npm run lint:css",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nikita1196/Card-Game.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Nikita1196/Card-Game/issues"
+    },
+    "homepage": "https://github.com/Nikita1196/Card-Game#readme",
+    "dependencies": {
+        "http-server": "^14.1.1",
+        "husky": "^8.0.3",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "eslint": "^8.33.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.4",
+        "stylelint": "^14.16.1",
+        "stylelint-config-prettier": "^9.0.4",
+        "stylelint-config-standard": "^29.0.0",
+        "stylelint-prettier": "^2.0.0"
+    }
+}
